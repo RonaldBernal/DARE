@@ -1,0 +1,74 @@
+{"Promos": [
+	{
+	  "Title": "Una tarde con caballos",
+	  "ShortDescription": "Regálale una experiencia única en contacto con la naturaleza",
+	  "Description": "Pasa la tarde rodeado de caballos en una terraza al lado de la primavera. Incluso puedes tener la opción de una cabalgata con asistencia. Todo esto mientras se relajan en una terraza con vista a la primavera",
+	  "Location": "La venta del astillero",
+	  "Phone": "33 1863 2524",
+	  "Picture": "http://i.imgur.com/d05fz9c.jpg",
+	  "Price": "500 Paq. 2 Pers."
+	},
+	{
+	  "Title": "Vamos al cine",
+	  "ShortDescription": "Compartan sus películas favoritas en una noche de cine",
+	  "Description": "Compartan una noche de películas taquilleras y obtén un 35% de descuento en tu pase para cinépolis",
+	  "Location": "La venta del astillero",
+	  "Phone": "33 1863 2524",
+	  "Picture": "http://clande-products.s3.amazonaws.com/491731-img_006c0000011aoqmia0_1-thumb.jpg",
+	  "Price": "75 Paq. 2 Pers."
+	},
+	{
+	  "Title": "Recorrido Casa Herradura",
+	  "ShortDescription": "Lléval@ a un paseo inolvidable por el mágico pueblo del agave",
+	  "Description": "Lléval@ al clásico recorrido de la Casa Herradura, conoce cómo se fabrica este icónico Tequila y haz que tenga una tarde diferente.",
+	  "Location": "Amatitán",
+	  "Phone": "33 3942 3900",
+	  "Picture": "http://www.ianchadwick.com/tequila/images/casa_herradura.jpg",
+	  "Price": "700 PP"
+	},
+	{
+	  "Title": "Experiencia Holística",
+	  "ShortDescription": "Comparte una tarde de relajación y armonía en el spa PAXIO",
+	  "Description": "Consiéntel@ con un masaje de una hora de su elección más media hora de Reflexología Podal y saldrá renovado.",
+	  "Location": "Guadalajara",
+	  "Phone": "33 3044 8113",
+	  "Picture": "http://spaxio.net/equipo.jpg",
+	  "Price": "800 Paq. 2 Pers."
+	},
+	{
+	  "Title": "Café panorámico",
+	  "ShortDescription": "Disfruten de la mejor vista de la ciudad acompañados de un buen café",
+	  "Description": "Disfruta de la mejor vista de la ciudad acompañados de un buen café en Brown & Coffee. El paquete incluye un café y un postre de su elección",
+	  "Location": "Plaza Panorámica Bugambilias",
+	  "Phone": "33 3123 2285",
+	  "Picture": "https://irs0.4sqi.net/img/general/width960/t39mlF9WpWQ2OIHCXSfsaAtGE67PzCMbk6h4rHRPYB4.jpg",
+	  "Price": "80 Paq. 2 Pers."
+	},
+	{
+	  "Title": "Noche de vinos",
+	  "ShortDescription": "Deléitate con nuestra especial selección de vinos",
+	  "Description": "Deléitate con nuestra especial selección de vinos. 4 vinos - 4 tiempos en Vinos del Mundo",
+	  "Location": "Guadalajara",
+	  "Phone": "33 3616 7464",
+	  "Picture": "https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/11855660_928198833912548_1372067167198759671_n.jpg?oh=e2efdea63e9c82ea4a1694cf66fb9bb1&oe=5679DF95",
+	  "Price": "400 Paq. 2 Pers."
+	},
+	{
+	  "Title": "Paseo en globo",
+	  "ShortDescription": "Para conocer el mundo, nada mejor que un globo",
+	  "Description": "Lléval@ a dar un paseo en globo en las afueras de la ciudad. Es una experiencia que jamás olvidará",
+	  "Location": "León, Guanajuato",
+	  "Phone": "477 329 8771",
+	  "Picture": "https://www.experimenta.com.mx/sites/default/files/experiencias/1_247.jpg",
+	  "Price": "1,700 PP."
+	},
+	{
+	  "Title": "Museo de Regional",
+	  "ShortDescription": "Un viaje al pasado como ningún otro",
+	  "Description": "Disfruten de un recorrido por el Museo Regional de Guadalajara, será una tarde llena de cultura y conocimientos que guardará por siempre",
+	  "Location": "Guadalajara",
+	  "Phone": "33 3613 2703",
+	  "Picture": "http://mw2.google.com/mw-panoramio/photos/medium/99128550.jpg",
+	  "Price": "0"
+	}
+]}

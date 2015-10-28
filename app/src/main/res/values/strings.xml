@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dare</string>
+
+    <string name="title_activity_main">Dare</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_promo">Promociones</string>
+    <string name="title_activity_wish">Pide un deseo</string>
+    <string name="title_activity_donate">Contribuye a un deseo</string>
+
+    <string name="ExpButton">Catálogo de Experiencias</string>
+    <string name="MakeAWishButton">Pide un Deseo</string>
+    <string name="DonateButton">Contribuye a un Deseo</string>
+    <string name="action_settings">Settings</string>
+    <string name="nameText">Nombre de quien pide el deseo</string>
+    <string name="descriptionText">Descripción Breve del deseo</string>
+    <string name="contactPhone">Teléfono de Contacto</string>
+    <string name="youtubeLink">URL Video en Youtube</string>
+    <string name="title_activity_promo_detail">Detalle</string>
+
+    <string name="title_activity_wish_detail">Detalle del deseo</string>
+    <string name="title_activity_payment">Realiza tu pago</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_confirmation">Confirmación de Pago</string>
+
+</resources>
