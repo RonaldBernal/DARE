@@ -16,6 +16,6 @@
         android:id="@+id/imageView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src="@mipmap/logo" />
+        android:src="@mipmap/logo4" />
 
 </RelativeLayout>

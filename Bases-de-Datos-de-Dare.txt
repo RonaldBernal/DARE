@@ -1,0 +1,47 @@
+<-- USER -->
+UserID (PK) | Name | Mail | Passwd
+
+<-- PROMO -->
+PromoID (PK) | Title | ShortDesc | LongDesc | Image | Local | Price | Contact
+
+<-- WHISH -->
+WishID (PK) | Name | ShortDesc | Contact | Cost | VideoURL
+
+<-- ContributionControl -->
+ContributionID (PK) | UserID (FK) | WishID (FK) | ContributionAmount 
+
+
+CREATE TABLE User
+(UserID VARCHAR(6),
+ Name	CHAR(30),
+ Mail   VARCHAR(30),
+ Passwd VARCHAR(10)
+)
+;
+
+CREATE TABLE Promos
+(PromoID VARCHAR(6),
+ Title	 VARCHAR(30),
+ ShortDesc VARCHAR(50),
+ LongDesc VARCHAR(100),
+ Image VARCHAR(150),
+ Local VARCHAR(30),
+ Contact INT)
+;
+
+CREATE TABLE Wish
+(WishID VARCHAR(6),
+ Name	CHAR(30),
+ ShortDesc VARCHAR(50),
+ Contact  INT,
+ Cost INT,
+ VideoURL VARCHAR(150)
+)
+;
+
+CREATE TABLE ContributionControl
+(ContributionID VARCHAR(6),
+ UserID VARCHAR(6),
+ WishID VARCHAR(6),
+ ContributionAmount INT)
+;

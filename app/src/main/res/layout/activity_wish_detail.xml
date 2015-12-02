@@ -93,7 +93,20 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:src="@drawable/youtubevid2"
+            android:visibility="gone"
             android:onClick="goToVideo" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/PlayButton"
+            android:layout_below="@+id/titleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/playbutton"
+            android:visibility="gone"
+            android:onClick="goToVideo"
+            android:background="@android:color/transparent" />
 
         <EditText
             android:layout_width="match_parent"

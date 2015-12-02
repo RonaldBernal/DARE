@@ -35,41 +35,13 @@ public class DonateActivity extends AppCompatActivity implements AdapterView.OnI
         this.list.setAdapter(this.adapter);
         this.list.setOnItemClickListener(this);
 
-        try {
-            JSONObject result = new JSONObject(loadJSONFromAsset());
-            JSONArray wishes = result.getJSONArray("Deseos");
-            for (int i = 0; i < wishes.length(); i++) {
-                JSONObject promo = wishes.getJSONObject(i);
-                this.wishes.add(
-                        new Wish(
-                                promo.getString("Name"),
-                                promo.getString("Description"),
-                                promo.getString("Cost"),
-                                promo.getString("Phone"),
-                                promo.getString("URL")
-                        )
-                );
-            }
-
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+        retrieveJSON();
     }
 
-    public String loadJSONFromAsset() {
-        String json = null;
-        try {
-            InputStream is = this.getAssets().open("Deseos.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
-        }
-        return json;
+    public void retrieveJSON(){
+        String jsonURL = "http://10.43.15.130:8000/wishes";
+        WishJReq jreq = new WishJReq(this, this.adapter, this.wishes);
+        jreq.execute(jsonURL);
     }
 
     @Override
